@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Базовая тема приложения -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Цвет панели приложения в верхней части экрана (action bar) -->
+        <item name="colorPrimary">#232323</item>
+        <!-- Цвет подложки под action bar -->
+        <item name="colorPrimaryDark">#2B2B2B</item>
+        <!-- Цвет кнопок -->
+        <item name="colorButtonNormal">#2B2B2B</item>
+    </style>
+
+    <!-- Тема для активности деталей (может быть расширена для конкретных цветов и стилей) -->
+    <style name="AppTheme.DetailActivity" parent="AppTheme">
+        <!-- Дополнительные стили или переопределения по мере необходимости -->
+    </style>
+
+    <!-- Тема для активности списка (может быть расширена для конкретных цветов и стилей) -->
+    <style name="AppTheme.ListActivity" parent="AppTheme">
+        <!-- Дополнительные стили или переопределения по мере необходимости -->
+    </style>
+
+</resources>
